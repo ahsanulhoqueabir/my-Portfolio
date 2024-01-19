@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
+import Header from "./Shared/Header";
 
 const App = () => {
   return (
-    <div>
-      <h1>React App</h1>
+    <div className="globalBG min-h-screen">
+      <Header />
       <Outlet />
     </div>
   );
