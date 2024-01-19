@@ -3,9 +3,11 @@ import Header from "./Shared/Header";
 
 const App = () => {
   return (
-    <div className="globalBG min-h-screen">
+    <div className="globalBG min-h-screen text-white">
       <Header />
-      <Outlet />
+      <div className="px-3 lg:px-20">
+        <Outlet />
+      </div>
     </div>
   );
 };
