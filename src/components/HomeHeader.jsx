@@ -21,15 +21,21 @@ const HomeHeader = () => {
             <FaLocationDot /> <span>Dhaka,Bangladesh</span>
           </h3>
           <div className="flex items-center gap-3">
-            <div className="size-3 animate-pulse bg-green-900 shadow-xl rounded-full"></div>
+            <div className="size-4 animate-pulse border-2 bg-green-900 shadow-xl rounded-full"></div>
             <p>Available for new projects</p>
           </div>
         </div>
         <div className="flex gap-5 text-3xl py-10">
-          <a className="animate-pulse bg-teal-100 text-black p-3 rounded-full" href="">
+          <a
+            className="animate-pulse bg-teal-100 text-black p-3 rounded-full"
+            href=""
+          >
             <FaGithub></FaGithub>
           </a>
-          <a className="animate-pulse bg-teal-100 text-black p-3 rounded-full" href="">
+          <a
+            className="animate-pulse bg-teal-100 text-black p-3 rounded-full"
+            href=""
+          >
             <FaFigma></FaFigma>
           </a>
         </div>
