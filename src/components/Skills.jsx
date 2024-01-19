@@ -57,7 +57,7 @@ const Skills = () => {
         </Marquee>
         <br />
         <br />
-        <Marquee delay={1}>
+        <Marquee direction="right" delay={1}>
           <div className="flex justify-between gap-16 lg:gap-48">
             <div>
               <img

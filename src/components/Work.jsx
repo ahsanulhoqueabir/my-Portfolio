@@ -68,7 +68,7 @@ const Work = () => {
               idx % 2 == 0 ? "lg:flex-row" : "lg:flex-row-reverse"
             } flex-col items-center justify-center gap-5`}
           >
-            <div className="w-full lg:w-1/2">
+            <div className="w-full lg:w-1/2 flex justify-center">
               <img
                 className="rounded-lg h-[450px] w-3/4 hover:object-cover"
                 src={work.image}
