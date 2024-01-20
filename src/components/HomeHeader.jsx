@@ -21,7 +21,7 @@ const HomeHeader = () => {
             <FaLocationDot /> <span>Dhaka,Bangladesh</span>
           </h3>
           <div className="flex items-center gap-3">
-            <div className="size-4 animate-pulse border-2 bg-green-900 shadow-xl rounded-full"></div>
+            <div className="size-3 animate-ping border-2 bg-green-900 shadow-xl rounded-full"></div>
             <p>Available for new projects</p>
           </div>
         </div>
