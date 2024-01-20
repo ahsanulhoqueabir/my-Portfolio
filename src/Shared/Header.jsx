@@ -25,7 +25,7 @@ const Header = () => {
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <FaAlignLeft className="text-3xl" />
+            <FaAlignLeft className="text-lg" />
           </div>
           <ul
             tabIndex={0}
@@ -46,8 +46,8 @@ const Header = () => {
           </ul>
         </div>
         <a className=" btn btn-ghost text-xl">
-          <FaCode className="text-3xl"></FaCode>
-          <span className="myText text-3xl">Ahsanul Hoque</span>
+          <FaCode className="text-xl lg:text-3xl"></FaCode>
+          <span className="myText text-xl lg:text-3xl">Ahsanul Hoque</span>
         </a>
       </div>
       <div className="navbar-end hidden lg:flex">
@@ -77,7 +77,7 @@ const Header = () => {
 
           {/* sun icon */}
           <svg
-            className="swap-on fill-current w-10 h-10"
+            className="swap-on fill-current lg:w-10 lg:h-10 w-6 h-6"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
