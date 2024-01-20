@@ -94,7 +94,7 @@ const testimonials = [
 ];
 const Testimonial = () => {
   return (
-    <div className="pb-10">
+    <div id="testimonial" className="pb-10">
       <Title>Testimonials</Title>
       <h2 className="text-lg  text-center py-5">
         Nice things people have said about me:

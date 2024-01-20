@@ -4,7 +4,7 @@ import Title from "./Title";
 
 const About = () => {
   return (
-    <div className="pb-10">
+    <div id="about" className="pb-10">
       <Title>About me</Title>
       <div className="flex flex-col lg:flex-row gap-5 pt-10 items-center">
         <div className="lg:w-1/2">

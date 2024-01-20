@@ -13,16 +13,16 @@ const Header = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52"
           >
             <li>
-              <a>About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a>Work</a>
+              <a href="#works">Work</a>
             </li>
             <li>
-              <a>Testomonials</a>
+              <a href="#testimonial">Testomonials</a>
             </li>
             <li>
-              <a href="">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -34,16 +34,16 @@ const Header = () => {
       <div className="navbar-end hidden lg:flex">
         <ul className="menu text-xl menu-horizontal px-1">
           <li>
-            <a>About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a>Work</a>
+            <a href="#works">Work</a>
           </li>
           <li>
-            <a>Testomonials</a>
+            <a href="#testimonial">Testomonials</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

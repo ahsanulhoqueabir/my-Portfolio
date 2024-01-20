@@ -1,6 +1,5 @@
 import {
   FaEnvelope,
-  FaGitAlt,
   FaGithub,
   FaLinkedin,
   FaRegCopy,
@@ -23,7 +22,7 @@ const Contact = () => {
     }, 2000);
   };
   return (
-    <div className="py-10 ">
+    <div id="contact" className="py-10">
       <Title>Get in touch</Title>
       <div className="justify-center flex flex-col items-center">
         <h2 className="text-xl lg:text-4xl text-center py-5">
@@ -54,7 +53,7 @@ const Contact = () => {
               <FaLinkedin className="text-xl"></FaLinkedin>
             </a>
             <a
-              href="github.com/ahsanulhoqueabir"
+              href="https://github.com/ahsanulhoqueabir"
               className="bg-blue-500 hover:bg-blue-600 text-white font-bold p-4  rounded"
             >
               <FaGithub className="text-xl"></FaGithub>{" "}

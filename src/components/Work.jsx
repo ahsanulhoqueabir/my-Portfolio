@@ -1,3 +1,4 @@
+import { useInView } from "react-intersection-observer";
 import Title from "./Title";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -54,8 +55,18 @@ const works = [
 ];
 
 const Work = () => {
+  const { ref, inView } = useInView({
+    rootMargin: "-200px 0px",
+  });
+
   return (
-    <div className="py-10">
+    <div
+      id="works"
+      ref={ref}
+      className={`py-10 transition-opacity ${
+        inView ? "opacity-1" : "opacity-0"
+      }`}
+    >
       <Title>Work</Title>
       <h2 className="text-lg  text-center py-5">
         Some of the noteworthy projects I have built:{" "}
