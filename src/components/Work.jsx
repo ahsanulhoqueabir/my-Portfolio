@@ -33,7 +33,7 @@ const works = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officiis aliquam placeat distinctio quam ex vel autem, incidunt debitis cum quo fuga! Tenetur ducimus est nostrum molestias et hic nesciunt saepe laboriosam sequi impedit unde nisi similique repellat cum natus aut reiciendis accusantium nihil cupiditate commodi illo corporis, optio recusandae. Tenetur consequatur magnam tempora non possimus incidunt explicabo reiciendis officiis.",
     image:
       "https://i.ibb.co/j6G6XbY/venerable-malasada-051ce3-netlify-app-1.png",
-    link: "https://venerable-malasada-051ce3.netlify.app/",
+    link: "https://superb-pie-440516.netlify.app/",
     language: [
       "react",
       "javascript",
