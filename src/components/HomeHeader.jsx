@@ -1,11 +1,14 @@
 import { FaFigma, FaGithub } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-import resume from '../assets/resume.pdf'
+import resume from "../assets/resume.pdf";
+import { useState } from "react";
 const HomeHeader = () => {
-  const handleDownload = ()=>
-  {
+  const [theme, setTheme] = useState(localStorage.getItem("theme"));
+  console.log(theme);
+
+  const handleDownload = () => {
     window.open(resume);
-  }
+  };
   return (
     <div className="py-10 flex gap-5 flex-col-reverse items-center lg:flex-row">
       <div className="space-y-2 lg:w-[60%] lg:pr-20">
@@ -25,7 +28,7 @@ const HomeHeader = () => {
             <FaLocationDot /> <span>Dhaka,Bangladesh</span>
           </h3>
           <div className="flex items-center gap-3">
-            <div className="size-3 animate-ping border-2 bg-green-900 shadow-xl rounded-full"></div>
+            <div className="size-3 animate-ping border-2 bg-green-600 shadow-xl rounded-full"></div>
             <p>Available for new projects</p>
           </div>
         </div>
@@ -42,7 +45,10 @@ const HomeHeader = () => {
           >
             <FaFigma></FaFigma>
           </a>
-          <button onClick={handleDownload} className="text-sm lg:text-xl box-border border-4 border-sky-900 px-3  bg-sky-600 text-white relative group">
+          <button
+            onClick={handleDownload}
+            className="text-sm lg:text-xl box-border border-4 border-sky-900 px-3  bg-sky-600   relative group"
+          >
             <span className="pr-8">Download Resume</span>
             <span className="bg-sky-900 absolute right-0 top-0  h-full flex items-center justify-center px-1 group-hover:duration-300 group-hover:w-full w-10 duration-300">
               <svg
@@ -80,7 +86,7 @@ const HomeHeader = () => {
       </div>
       <div className="flex w-[300px] h-[320px] lg:w-[400px] lg:h-[440px] mx-auto ">
         <img
-          className="z-[10] myRadi bg-white shadow-xl shadow-lime-200"
+          className="z-[10] myRadi  shadow-xl shadow-teal-500"
           src="https://i.ibb.co/61zgX8X/sdfdsgasg.png"
           alt="ahsan"
         />

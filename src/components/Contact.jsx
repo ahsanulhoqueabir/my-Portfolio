@@ -32,9 +32,9 @@ const Contact = () => {
         {/* <div className="flex gap-5 justify-center items-center">
                     <a href="mailto:
                     contact.ahsanul@gmail.com?subject=Contact%20from%
-                    ahsanul'sPortfolio" className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">Email Me</a>
+                    ahsanul'sPortfolio" className="bg-green-500 hover:bg-green-600   font-bold py-2 px-4 rounded">Email Me</a>
 
-                    <a href="https://www.linkedin.com/in/ahsnaulhoqueabir/" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/ahsnaulhoqueabir/" className="bg-blue-500 hover:bg-blue-600   font-bold py-2 px-4 rounded">LinkedIn</a>
                    
                     </div> */}
         <div className="flex gap-3 items-center text-xl">
@@ -48,13 +48,13 @@ const Contact = () => {
           <div className="flex gap-5 justify-center items-center">
             <a
               href="https://www.linkedin.com/in/ahsnaulhoqueabir/"
-              className="bg-blue-500 hover:bg-blue-600 text-white font-bold p-4  rounded"
+              className="bg-blue-500 hover:bg-blue-600   font-bold p-4  rounded"
             >
               <FaLinkedin className="text-xl"></FaLinkedin>
             </a>
             <a
               href="https://github.com/ahsanulhoqueabir"
-              className="bg-blue-500 hover:bg-blue-600 text-white font-bold p-4  rounded"
+              className="bg-blue-500 hover:bg-blue-600   font-bold p-4  rounded"
             >
               <FaGithub className="text-xl"></FaGithub>{" "}
             </a>

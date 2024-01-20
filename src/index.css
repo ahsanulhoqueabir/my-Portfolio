@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.globalBG {
+.globalBGG {
   background: linear-gradient(113deg, #249b9b -30.3%, #024053 60.12%);
   /* @apply bg-gradient-to-r from-[#249b9b] from-20% via-sky-500 via-50% to-emerald-500 to-90% ; */
 }

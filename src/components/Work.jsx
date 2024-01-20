@@ -81,7 +81,7 @@ const Work = () => {
           >
             <div className="w-full lg:w-1/2 flex justify-center">
               <img
-                className="rounded-lg h-[450px] w-3/4 hover:object-cover"
+                className="rounded-lg border-2 border-teal-400 shadow-2xl h-[450px] w-3/4 hover:object-cover"
                 src={work.image}
                 alt={work.title}
               />
@@ -93,7 +93,7 @@ const Work = () => {
                 {work.language.map((lang, indx) => (
                   <span
                     key={indx}
-                    className="px-3 py-1 bg-gray-800 rounded-full text-white text-sm"
+                    className="px-3 py-1 bg-gray-800 rounded-full text-white   text-sm"
                   >
                     {lang}
                   </span>
