@@ -42,7 +42,7 @@ const HomeHeader = () => {
           >
             <FaFigma></FaFigma>
           </a>
-          <button onClick={handleDownload} className="text-xl box-border border-4 border-sky-900 px-3  bg-sky-600 text-white relative group">
+          <button onClick={handleDownload} className="text-sm lg:text-xl box-border border-4 border-sky-900 px-3  bg-sky-600 text-white relative group">
             <span className="pr-8">Download Resume</span>
             <span className="bg-sky-900 absolute right-0 top-0  h-full flex items-center justify-center px-1 group-hover:duration-300 group-hover:w-full w-10 duration-300">
               <svg
