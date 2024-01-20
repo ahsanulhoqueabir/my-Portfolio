@@ -2,7 +2,7 @@ const Title = ({ children }) => {
   return (
     <div className="flex justify-center items-center gap-5">
       <hr className="border-2 border-black w-[20%]" />
-      <button className="py-2 w-[160px] px-6  bg-sky-300 hover:bg-sky-600 rounded hover:text-white duration-300   flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
+      <button className="py-2 w-[160px] px-6 text-black bg-sky-300 hover:bg-sky-600 rounded hover:text-white duration-300   flex items-center justify-center overflow-hidden hover:overflow-visible relative group">
         <svg
           viewBox="0 0 1024 1024"
           className="icon rotate-45 group-hover:duration-700 absolute w-12 -translate-x-full translate-y-full scale-0 group-hover:scale-100 group-hover:translate-x-8 group-hover:-translate-y-8 duration-150"

@@ -47,10 +47,10 @@ const HomeHeader = () => {
           </a>
           <button
             onClick={handleDownload}
-            className="text-sm lg:text-xl box-border border-4 border-sky-900 px-3  bg-sky-600   relative group"
+            className="text-sm lg:text-xl box-border border-4 border-teal-600 px-3  bg-teal-400 text-black  relative group"
           >
             <span className="pr-8">Download Resume</span>
-            <span className="bg-sky-900 absolute right-0 top-0  h-full flex items-center justify-center px-1 group-hover:duration-300 group-hover:w-full w-10 duration-300">
+            <span className="bg-cyan-600 absolute right-0 top-0  h-full flex items-center justify-center px-1 group-hover:duration-300 group-hover:w-full w-10 duration-300">
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
